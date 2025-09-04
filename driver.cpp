@@ -17,5 +17,18 @@ int main () {
 	//	3. Check letters
 	//	4. If correct guess, end; else, continue to #1
 
+	// Display:
+	//	
+	//	_ R _ _ E
+	//
+	//  Available Letters: 
+	//	
+	//	  B C D   F G H
+	//	I J K L M N O P
+	//  Q R S   U V W X
+	//  Y Z
+	//
+	//	Guess: 
+
 	return 0;
 }
