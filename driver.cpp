@@ -3,13 +3,21 @@
 
 const std::string word = "trace";
 
+void displayGame (std::string& currentGuess) {
+	std::cout << "Address of 'guess' = " << &currentGuess << "\n";
+
+	
+}
+
 int main () {
 
 	std::cout << "Guess: ";
 	std::string guess = "";
 	std::cin >> guess;
 
-	std::cout << "Your guess: " << guess << "\n";
+	std::cout << "Address of 'guess' = " << &guess << "\n";
+
+	displayGame(guess);
 
 	// Game loop:
 	//	1. Show letters guessed
